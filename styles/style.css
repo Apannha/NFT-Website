@@ -311,8 +311,9 @@ padding-top: 16px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
+    color: #21204A;
 }
 
 .user-avatar {
@@ -671,14 +672,17 @@ color: #282329;
 
 .card_title1 {
     padding-bottom: 12px;
+
 }
 
 .card_title2 {
     padding-bottom: 12px;
+
 }
 
 .card_title3 {
     padding-bottom: 12px;
+
 }
 
 .card_title4 {
