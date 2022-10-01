@@ -14,7 +14,6 @@
     height: 552px;
     background-color: #21204A;
     position: relative;
-    padding-top: 35px;
 }
 
 .header {
@@ -142,7 +141,7 @@
 
 .header-image-1 {
     position: absolute;
-    top: 125px;
+    top: 91px;
     right: 110px;
 
 
