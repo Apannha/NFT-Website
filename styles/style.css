@@ -76,6 +76,11 @@ body {
     margin-bottom:50px;
 }
 
+.carousel-inner img {
+    border-radius: 20px;
+
+}
+
 .btn {
     width: 150px;
     height: 50px;
@@ -119,9 +124,33 @@ body {
     margin-left: 15px;
     padding: 1px;
 }
+form {
+    display: flex;
+    justify-content: center 
+}
+form input:last-child {
+    margin-left: 50px;
+    width: 150px;
+}
+
+form input {
+    margin: auto 10px;
+}
 
 .form-callback {
-    margin-top: 50px;
+    margin: 50px auto;
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.btn-primary {
+    padding: 12px;
 }
 
 
