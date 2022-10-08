@@ -333,8 +333,8 @@ padding-top: 16px;
 /*Popular Collections  Category*/
 .card_col_1 {
     background: rgba(255, 255, 255, 0.6);
-    width: 350px;
-    height: 235px;
+    width: 382px;
+    height: 272px;
     box-shadow: 6px 12px 18px rgba(102, 146, 204, 0.08), inset 0px 0px 0.5px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding: 16px;
@@ -372,10 +372,6 @@ padding-top: 16px;
     position: relative;
 }   
 
-.card_extra1 {
-    padding-top: 5px;
-    position: relative;
-}
 .card_extra2 {
     padding-top: 5px;
     position: relative;
@@ -719,7 +715,7 @@ color: #282329;
     background: rgba(249, 249, 249, 0.8);
     box-shadow: 20px 20px 30px rgba(124, 65, 154, 0.1);
     border-radius: 16px;
-    width: 250px;
+    width: 280px;
     padding: 15px;
     margin-right: 28px;
     margin-top: 80px;
@@ -756,7 +752,7 @@ color: #451254;
     background: rgba(249, 249, 249, 0.8);
     box-shadow: 20px 20px 30px rgba(124, 65, 154, 0.1);
     border-radius: 16px;
-    width: 250px;
+    width: 280px;
     padding: 15px;
     position: relative;
 }
@@ -847,13 +843,28 @@ padding-bottom: 32px;
     box-shadow: 6px 12px 18px rgba(102, 146, 204, 0.08), inset 0px 0px 0.5px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     padding: 16px;
-    margin-right: 24px;
+    margin-right: 16px;
     margin-top: 15px;
 }
 
 .browse-1:last-child {
     margin-right: 0px;
 }
+
+.browse-2 {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 6px 12px 18px rgba(102, 146, 204, 0.08), inset 0px 0px 0.5px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 16px;
+    margin-right: 16px;
+    margin-top: 15px;
+}
+
+.browse-2:last-child {
+    margin-right: 0px;
+}
+
 
 /*SEVENTH BLOCK CATERGORY*/
 
@@ -1004,13 +1015,15 @@ color: #FFFFFF;
 }
 .mynft_media {
     padding: 35px;
+    position: relative;
 }
 iframe {
         border: 2px solid transparent;
         border-radius: 30px;
         -webkit-border-radius: 30px;
         -o-border-radius: 30px;
-        position: relative;
+        position: absolute;
+        right: 40px;
         overflow: hidden;
 }
 
@@ -1032,8 +1045,16 @@ iframe {
 
 .icons_container a{
     float: left;
-    padding-right: 241px;
+    padding-right: 227px;
 }
+.icons_container a:nth-child(2){
+    padding-right: 244px;
+}
+
+.icons_container a:nth-child(3){
+    padding-right: 244px;
+}
+
 .icons_container a:last-child {
     padding-right: 0px;
 }
@@ -1117,7 +1138,7 @@ iframe {
 }
 
 .text_container1 {
-    padding: 24px 40px 0px 0px;
+    padding: 24px 23px 0px 0px;
 }
 
 .text_container2 {
@@ -1169,6 +1190,9 @@ iframe {
     color: #F0F6FF;
 }
 
+.btns .bg_btn1:hover {
+    border: 1px solid #11315B;
+}
 .bg_btn1 {
     width: 145px;
     padding: 10px 20px 10px 12px;
@@ -1178,6 +1202,7 @@ iframe {
     padding: 10px;
     margin-right: 12px;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .bg_btn1 img {
@@ -1204,6 +1229,10 @@ iframe {
     color: #476285;
 }
 
+.btns .bg_btn2:hover {
+    border: 1px solid #11315B;
+}
+
 .bg_btn2 {
     width: 164px;
     padding: 10px 9px 11px 8px;
@@ -1211,6 +1240,7 @@ iframe {
     border-radius: 12px;
     border: none;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .bg_btn2 img {
@@ -1472,7 +1502,7 @@ input {
 
 .left-3links a{
     text-decoration: none;
-    padding: 3px 8px 0px 15px;
+    padding: 5px 10px 0px 10px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
